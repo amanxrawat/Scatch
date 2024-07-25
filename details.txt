@@ -1,0 +1,19 @@
+usermodel ->
+full name - string
+email - string 
+password  - string 
+cart - array of id
+isadmin - bool 
+orders - array 
+contact - number,
+picture - db me store karenge using multer memory storage.
+
+
+product->
+images - string
+name - string
+price - number
+discount - number
+bg color - string
+panel color - string
+text color - stirng
