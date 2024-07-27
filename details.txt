@@ -17,3 +17,9 @@ discount - number
 bg color - string
 panel color - string
 text color - stirng
+
+
+
+using flash we can send the data of a route to another route for example
+we have sent the data of req.flash("error","this message or data will be sent under the flash").redirect('/') so the data will be sent to 
+the / route. then we can access the data like let error = req.flash('error'); now the error will contain the message.
