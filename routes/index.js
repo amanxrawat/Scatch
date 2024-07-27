@@ -16,7 +16,7 @@ router.get('/', function(req, res){
 });
 
 
-router.get('/shop' , isLoggedIn, async function(req,res ){
+router.get('/shop' ,isLoggedIn, async function(req,res ){
     let product = await productmodel.find();
     let success = req.flash('success');
     res.render("shop",{product,success});

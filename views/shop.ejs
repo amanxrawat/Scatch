@@ -33,7 +33,7 @@
         </div>
         <div class="w-[75%] flex flex-col gap-5 h-screen">
             <div class="flex items-start gap-5">
-                <% products.forEach(function(product){ %>
+                <% product.forEach(function(product){ %>
                     <div class="w-60">
                         <div class="w-full h-52 flex items-center justify-center bg-[<%= product.bgcolor %>]">
                             <img class="h-[12rem]" src="data:image/jpeg;base64,<%= product.image.toString('base64') %>"
